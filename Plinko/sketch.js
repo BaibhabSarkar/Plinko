@@ -51,8 +51,12 @@ function setup() {
 
 function draw() {
   background("black");
- // textSize(20)
- //text("Score : "+score,20,30);
+  textSize(20)
+ text("Score : "+score,20,30);
+ text("1",180,530);
+ text("1",100,530);
+ text("1",20,530);
+ text("1",260,530);
   Engine.update(engine);
   ground.display();
   
